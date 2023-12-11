@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Poppins;
+}
+
+nav {
+    border: 1px black solid;
+}
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0.8)
+}
+
+ .hover-underline-animation {
+   display: inline-block;
+   position: relative;
+   color: black;
+ }
+ 
+ .hover-underline-animation:after {
+   content: '';
+   position: absolute;
+   width: 100%;
+   transform: scaleX(0);
+   height: 2px;
+   bottom: 0;
+   left: 0;
+   background-color: #0087ca;
+   transform-origin: bottom right;
+   transition: transform 0.25s ease-out;
+ }
+ 
+ .hover-underline-animation:hover:after {
+   transform: scaleX(1);
+   transform-origin: bottom left;
+ }
+
+section {
+    margin-top: 40px;
+}
+
+.lixcard {
+    margin: auto;
+    background-color: beige;
+}
+
+#carouselExampleCaptions {
+    background-color: beige;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.proj {
+    border: gray solid 2pxs;
+}
+
+.boton {
+    border-radius: 100px;
+    background-color: white;
+    color: black;
+}
+
+.boton:hover {
+    background-color: black;
+    color: white;
+}
+
+.kontak {
+    color: black;
+}
+
+

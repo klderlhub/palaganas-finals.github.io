@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Poppins;
+    background-image: url('ve-bg.jpg');
+}
+
+#hero {
+    margin-top: 25px;
+    margin-bottom: 30px;
+    justify-content: center;
+}
+
+p {
+    color: black;
+}
+
+.nav {
+    background-color: rgba(255, 255, 255, 0.7)
+}
+
+.nav-link {
+    color:  black;
+    box-sizing: border-box;
+    border-radius: 12px;
+}
+
+.nav-link:hover {
+    color: black;
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+.btnku:hover{
+    color: black;
+    background-color: white;
+}
+
+.pic-ko {
+    border-radius: 15px;
+    width: 100%;
+    max-width: 420px;
+    height: auto;
+}
